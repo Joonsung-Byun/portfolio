@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navWrapper {
+    background-color: rgba(241, 216, 186, 0.836);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li { 
+    margin-right: 5px;
+}
+
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+
+nav ul li a:hover {
+    color: white;
+    background-color: black;
+}
+
+#heroImage {
+    width: 100%;
+}
+
+#heroImage img {
+    width: 100%;
+    height: auto;
+}
+
+#heroImage h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+}
+
+#aboutMe {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 1rem;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+#caseStudies {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 1rem;
+    padding: 3%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.caseStudy figure {
+    width: 90%;
+    border: 3px solid rgba(241, 216, 186, 0.836);
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.caseStudy figure img {
+    width: 100%;
+    border-radius: 5%;
+    padding-bottom: 8px;
+}
+
+.caseStudy figure figcaption {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    padding-bottom: 10px;
+}
+
+.caseStudy figure:hover {
+    transition: .3s ease;
+    transform: translateY(10px);
+}
+
+#contactMe {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 1rem;
+    padding: 3% 3% 6% 3%;
+    border-radius: 10px;
+}
+
+.sectionChange {
+    padding-bottom: 10px;
+}
+
+#contactMe h3 {
+    padding-bottom: 16px;
+}
+
+
+#contactMe ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#contactMe ul li {
+    list-style-type: none;
+}
+
+#contactMe ul img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+
+#contactMe ul li a {
+    display: block;
+    color: black;
+    transition: .3s ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+#contactMe a:hover {
+    text-decoration: underline;
+    transform: translateY(10px);
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}

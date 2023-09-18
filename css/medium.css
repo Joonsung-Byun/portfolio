@@ -1,0 +1,57 @@
+@media only screen and (min-width: 35rem) {
+    nav ul{
+        display: flex;
+        text-align: right;
+        justify-content: right;
+    }
+
+    #heroImage h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 50px;
+        font-size: 2.5rem;
+    }
+
+    #caseStudies {
+        width: 90%;
+        background-color: rgb(243, 243, 243);
+        margin-top: 1rem;
+        border-radius: 10px;
+    }
+
+    #display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caseStudy {
+        flex-basis: 48%;
+        padding-right: 3.5%;
+    }
+
+    .caseStudy figure {
+        width: 100%;
+        border: 3px solid rgba(241, 216, 186, 0.836);
+        border-radius: 5%;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    #contactMe ul img {
+        width: 60px;
+        height: 60px;
+    }
+    
+
+    #contactMe ul li a {
+        font-size: 17px;
+        text-align: center;
+    }
+    
+} /* end media query*/

@@ -1,0 +1,27 @@
+@media only screen and (min-width: 60rem) {
+    nav ul{
+        display: flex;
+        text-align: right;
+        justify-content: right;
+    }
+
+    #display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .caseStudy {
+        flex-basis: 33%;
+        padding-right: 2%;
+    }
+
+    
+    main, nav,footer {
+        max-width: 60rem;
+        margin: auto;
+    }
+
+    
+} /* end media query*/
