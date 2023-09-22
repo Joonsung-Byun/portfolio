@@ -164,4 +164,6 @@ footer {
     padding: 15px;
     text-align: center;
     font-size: 14px;
+    background-color: rgb(56, 56, 56);
+    color: white;
 }
