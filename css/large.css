@@ -5,12 +5,12 @@
         justify-content: right;
     }
 
-    #display {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
     }
+
 
     .caseStudy {
         flex-basis: 33%;

@@ -17,6 +17,7 @@ body {
 
 
 nav ul{
+    margin: 0;
     display: flex;
     list-style-type: none;
     justify-content: center;
@@ -62,6 +63,7 @@ nav ul li a:hover {
     line-height: 30px;
 }
 
+
 #aboutMe {
     margin: 0 auto;
     width: 90%;
@@ -69,6 +71,7 @@ nav ul li a:hover {
     margin-top: 1rem;
     padding: 3%;
     border-radius: 10px;
+    padding: 40px;
 }
 
 #caseStudies {
@@ -80,30 +83,40 @@ nav ul li a:hover {
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    padding: 40px;
 }
 
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.caseStudy a {
+    text-decoration: none;
+}
 
 .caseStudy figure {
-    width: 90%;
+    width: 100%;
     border: 3px solid rgba(241, 216, 186, 0.836);
     border-radius: 5%;
     margin: 0 auto;
     margin-bottom: 30px;
-
+    overflow: hidden;
+    background-color: rgb(56, 56, 56);
 }
 
 .caseStudy figure img {
     width: 100%;
-    border-radius: 5%;
-    padding-bottom: 8px;
+    display: block;
 }
+
 
 .caseStudy figure figcaption {
     text-align: center;
-    text-decoration: none;
-    color: black;
+    color: white;
     transition: .3s ease;
-    padding-bottom: 10px;
+    text-decoration: none;
+    padding: .5rem 0;
 }
 
 .caseStudy figure:hover {
@@ -118,6 +131,7 @@ nav ul li a:hover {
     margin-top: 1rem;
     padding: 3% 3% 6% 3%;
     border-radius: 10px;
+    padding: 40px;
 }
 
 .sectionChange {
