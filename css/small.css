@@ -72,9 +72,12 @@ nav ul li a:hover {
     padding: 3%;
     border-radius: 10px;
     padding: 40px;
+    position: relative;
 }
 
+
 #caseStudies {
+    position: relative;
     margin: 0 auto;
     width: 90%;
     background-color: rgb(243, 243, 243);
