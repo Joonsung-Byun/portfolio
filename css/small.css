@@ -75,6 +75,10 @@ nav ul li a:hover {
     position: relative;
 }
 
+#aboutMe div {
+    padding: .5rem 0;
+}
+
 
 #caseStudies {
     position: relative;
@@ -106,6 +110,12 @@ nav ul li a:hover {
     margin-bottom: 30px;
     overflow: hidden;
     background-color: rgb(56, 56, 56);
+}
+
+.caseStudy figure p {
+    color: white;
+    padding: .5rem;
+    text-align: center;
 }
 
 .caseStudy figure img {
